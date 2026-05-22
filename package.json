@@ -2,11 +2,13 @@
   "name": "woodlot-site",
   "version": "1.0.0",
   "private": true,
-  "description": "Static Woodlot site served locally with http-server.",
+  "description": "Static Woodlot site with a watched local preview server.",
   "scripts": {
-    "start": "http-server ./ -c-1"
+    "start": "live-server ./ --watch=. --no-browser",
+    "serve": "http-server ./ -c-1"
   },
   "devDependencies": {
-    "http-server": "^14.1.1"
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
   }
 }
