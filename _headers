@@ -1,0 +1,11 @@
+/
+  Link: </service-doc.md>; rel="service-doc"; type="text/markdown", </index.md>; rel="alternate"; type="text/markdown"
+
+/index.html
+  Link: </service-doc.md>; rel="service-doc"; type="text/markdown", </index.md>; rel="alternate"; type="text/markdown"
+
+/index.md
+  Content-Type: text/markdown; charset=utf-8
+
+/service-doc.md
+  Content-Type: text/markdown; charset=utf-8
