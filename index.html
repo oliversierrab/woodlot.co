@@ -1,0 +1,1371 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Woodlot creates luxury custom cabinetry, closets, vanities, wall units, and millwork for South Florida homes and businesses."
+    />
+    <link rel="canonical" href="https://www.woodlot.co/" />
+    <title>Woodlot | Custom Cabinetry &amp; Millwork in South Florida</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://www.woodlot.co/#website",
+            "url": "https://www.woodlot.co/",
+            "name": "WOODLOT",
+            "publisher": {
+              "@id": "https://www.woodlot.co/#business"
+            }
+          },
+          {
+            "@type": "HomeAndConstructionBusiness",
+            "@id": "https://www.woodlot.co/#business",
+            "name": "WOODLOT, INC.",
+            "alternateName": "Woodlot",
+            "url": "https://www.woodlot.co/",
+            "description": "Family-owned Miami carpentry company providing custom cabinetry manufacturing and millwork solutions for South Florida homes and businesses.",
+            "slogan": "WOODWORK - LUXURY - BESPOKE",
+            "telephone": "+1-305-686-6054",
+            "email": "info@emrestoration.net",
+            "foundingDate": "2021",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "17401 NW 2nd Ave #104",
+              "addressLocality": "Miami Gardens",
+              "addressRegion": "FL",
+              "postalCode": "33169",
+              "addressCountry": "US"
+            },
+            "areaServed": [
+              "South Florida",
+              "Miami-Dade County",
+              "Miramar",
+              "Miami",
+              "Kendall",
+              "Hollywood",
+              "Hialeah",
+              "Fort Lauderdale",
+              "Davie",
+              "Coral Springs",
+              "Cooper City"
+            ],
+            "sameAs": [
+              "https://www.instagram.com/woodlotcabinets/",
+              "https://maps.app.goo.gl/rqf6bhUC32Er5w6K7"
+            ],
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Custom cabinetry and millwork services",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Custom Kitchen Cabinets",
+                    "serviceType": "Custom kitchen cabinetry"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Custom Closets",
+                    "serviceType": "Custom closet design and cabinetry"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Custom Vanities",
+                    "serviceType": "Custom bathroom vanities"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Custom Wall Units",
+                    "serviceType": "Custom wall units and built-ins"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    </script>
+    <style>
+      :root {
+        --paper: #000;
+        --surface: #0d0d0d;
+        --panel: #171717;
+        --panel-soft: #202020;
+        --ink: #f8f8f6;
+        --muted: #b9b9b6;
+        --line: rgba(255, 255, 255, 0.14);
+        --pine: #101010;
+        --pine-bright: #202020;
+        --copper: #8c6b59;
+        --gold: #fff;
+        --shadow: 0 22px 60px rgba(0, 0, 0, 0.44);
+        --radius: 1.25rem;
+        color-scheme: dark;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        background: var(--paper);
+        color: var(--ink);
+        font-family:
+          Inter, Avenir, "Segoe UI", Helvetica, Arial, sans-serif;
+        letter-spacing: 0;
+        line-height: 1.5;
+        margin: 0;
+      }
+
+      body::before {
+        background: #000;
+        content: "";
+        inset: 0;
+        pointer-events: none;
+        position: fixed;
+        z-index: -1;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      img {
+        display: block;
+        max-width: 100%;
+      }
+
+      button,
+      a {
+        -webkit-tap-highlight-color: transparent;
+      }
+
+      a:focus-visible {
+        outline: 3px solid var(--gold);
+        outline-offset: 4px;
+      }
+
+      .shell {
+        margin: 0 auto;
+        max-width: 1280px;
+        padding-inline: clamp(1.25rem, 4vw, 3.5rem);
+      }
+
+      .eyebrow {
+        background: rgba(13, 13, 13, 0.92);
+        color: var(--ink);
+        display: inline-block;
+        font-size: 0.8rem;
+        font-weight: 600;
+        letter-spacing: 0;
+        margin: 0 0 0.9rem;
+        padding: 0.25rem 0.42rem;
+        text-transform: uppercase;
+      }
+
+      .section {
+        padding-block: clamp(4.4rem, 8vw, 8.5rem);
+      }
+
+      .section-heading {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: minmax(0, 1.05fr) minmax(18rem, 0.72fr);
+        margin-bottom: clamp(2rem, 4vw, 3.5rem);
+      }
+
+      h1,
+      h2,
+      h3,
+      p,
+      ul,
+      ol,
+      blockquote {
+        margin-top: 0;
+      }
+
+      h1,
+      h2,
+      h3 {
+        font-family: inherit;
+        font-weight: 400;
+        letter-spacing: 0;
+        line-height: 1.04;
+      }
+
+      h1 {
+        font-size: clamp(2.8rem, 5.4vw, 5.25rem);
+        margin-bottom: 1rem;
+      }
+
+      h2 {
+        font-size: clamp(2rem, 4vw, 4.1rem);
+        margin-bottom: 0;
+      }
+
+      h3 {
+        font-size: clamp(1.25rem, 1.8vw, 1.7rem);
+        margin-bottom: 0.85rem;
+      }
+
+      p {
+        color: var(--muted);
+        margin-bottom: 1rem;
+      }
+
+      .section-heading p {
+        align-self: end;
+        font-size: clamp(1rem, 1.35vw, 1.22rem);
+        margin-bottom: 0.25rem;
+      }
+
+      .site-header {
+        background: #000;
+        position: relative;
+        z-index: 2;
+      }
+
+      .nav {
+        align-items: center;
+        border-bottom: 0;
+        color: var(--ink);
+        display: grid;
+        gap: 1.25rem;
+        grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+        min-height: 5rem;
+      }
+
+      .mark {
+        align-items: center;
+        display: inline-flex;
+        flex-direction: column;
+        font-size: clamp(2rem, 2.6vw, 2.9rem);
+        font-weight: 850;
+        gap: 0;
+        grid-column: 2;
+        line-height: 1;
+        text-decoration: none;
+      }
+
+      .mark::before {
+        display: none;
+      }
+
+      .mark::after {
+        content: "Carpentry reinvented";
+        font-size: 0.48rem;
+        font-weight: 700;
+        line-height: 1.2;
+        text-transform: uppercase;
+      }
+
+      .nav-links {
+        align-items: center;
+        display: flex;
+        grid-column: 1 / -1;
+        grid-row: 1;
+        gap: clamp(0.75rem, 2vw, 1.6rem);
+        justify-content: space-between;
+      }
+
+      .nav-links a {
+        color: rgba(255, 255, 255, 0.94);
+        font-size: clamp(0.86rem, 1.1vw, 1rem);
+        font-weight: 600;
+        text-decoration: none;
+      }
+
+      .nav-links a:nth-child(2) {
+        margin-right: auto;
+      }
+
+      .nav-links a:nth-child(3) {
+        margin-left: auto;
+      }
+
+      .nav-links a:hover,
+      .contact-row a:hover,
+      footer a:hover {
+        text-decoration: underline;
+        text-underline-offset: 0.25em;
+      }
+
+      .button {
+        align-items: center;
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 0.55rem;
+        display: inline-flex;
+        font-weight: 800;
+        gap: 0.65rem;
+        justify-content: center;
+        min-height: 2.9rem;
+        padding: 0.65rem 1rem;
+        text-decoration: none;
+        transition:
+          background 180ms ease,
+          border 180ms ease,
+          color 180ms ease,
+          transform 180ms ease;
+      }
+
+      .button:hover {
+        transform: translateY(-2px);
+      }
+
+      .button-primary {
+        background: #181818;
+        border-color: rgba(255, 255, 255, 0.18);
+        color: var(--ink);
+      }
+
+      .button-outline {
+        border-color: rgba(255, 255, 255, 0.88);
+        color: var(--ink);
+      }
+
+      .button-dark {
+        background: var(--pine);
+        color: var(--ink);
+      }
+
+      .hero {
+        background:
+          linear-gradient(180deg, rgba(0, 0, 0, 0.05) 11%, rgba(0, 0, 0, 0.12) 35%, #000 92%),
+          url("assets/152-Miami-Lakes-01_f07b.jpg") center / cover;
+        color: var(--ink);
+        min-height: min(76svh, 820px);
+        overflow: hidden;
+        position: relative;
+      }
+
+      .hero-layout {
+        align-items: end;
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: minmax(0, 1fr);
+        justify-items: center;
+        min-height: min(76svh, 820px);
+        padding-bottom: clamp(2rem, 5vw, 4.2rem);
+        padding-top: clamp(10rem, 25vh, 20rem);
+        text-align: center;
+      }
+
+      .hero-copy {
+        max-width: 900px;
+      }
+
+      .hero h1,
+      .hero h2 {
+        color: var(--ink);
+      }
+
+      .hero-copy > p:not(.eyebrow) {
+        color: rgba(255, 255, 255, 0.78);
+        font-size: clamp(1rem, 1.3vw, 1.22rem);
+        margin-inline: auto;
+        max-width: 670px;
+      }
+
+      .hero-actions {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.8rem;
+        margin-top: 1.8rem;
+      }
+
+      .hero-proof {
+        background: transparent;
+        border: 0;
+        max-width: 640px;
+        padding: 0;
+      }
+
+      .hero-proof p {
+        display: none;
+      }
+
+      .hero-proof strong {
+        color: rgba(255, 255, 255, 0.76);
+        display: block;
+        font-size: clamp(1rem, 1.4vw, 1.25rem);
+        font-weight: 400;
+        line-height: 1.3;
+        margin-bottom: 0;
+        text-transform: uppercase;
+      }
+
+      .intro {
+        background: #000;
+        border-bottom: 0;
+      }
+
+      .intro-grid {
+        display: grid;
+        gap: clamp(1.5rem, 3vw, 3rem);
+        grid-template-columns: minmax(0, 0.56fr) minmax(0, 1fr);
+        margin: 0 auto;
+        max-width: 960px;
+      }
+
+      .intro-statement {
+        border-left: 1px solid rgba(255, 255, 255, 0.35);
+        color: rgba(255, 255, 255, 0.78);
+        font-size: clamp(1.06rem, 1.5vw, 1.3rem);
+        line-height: 1.55;
+        margin: 0;
+        padding-left: clamp(1rem, 2vw, 2rem);
+      }
+
+      .services {
+        background: #000;
+        padding-top: clamp(2.4rem, 5vw, 4.5rem);
+      }
+
+      .service-grid {
+        display: grid;
+        gap: clamp(0.8rem, 1.3vw, 1.25rem);
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
+
+      .service {
+        background-color: var(--panel);
+        background-position: center;
+        background-size: cover;
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        min-height: clamp(18rem, 27vw, 25rem);
+        overflow: hidden;
+        padding: 0.8rem;
+        position: relative;
+      }
+
+      .service::before {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.42));
+        content: "";
+        inset: 0;
+        position: absolute;
+      }
+
+      .service:nth-child(1) {
+        background-image: url("assets/Biscayne-10-02_ecea.jpg");
+      }
+
+      .service:nth-child(2) {
+        background-image: url("assets/1941-Davie-01_d360.jpg");
+      }
+
+      .service:nth-child(3) {
+        background-image: url("assets/Coastal-22-07_d002.jpg");
+      }
+
+      .service:nth-child(4) {
+        background-image: url("assets/Gables-28-01_66d0.jpg");
+      }
+
+      .service-number {
+        display: none;
+      }
+
+      .service h3 {
+        backdrop-filter: blur(10px);
+        background: rgba(19, 19, 19, 0.82);
+        border-radius: 0.85rem;
+        color: var(--ink);
+        font-size: clamp(1.12rem, 1.45vw, 1.45rem);
+        margin: 0;
+        min-height: 4rem;
+        padding: 1rem;
+        position: relative;
+        z-index: 1;
+      }
+
+      .service ul,
+      .detail-list,
+      .area-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .service li,
+      .detail-list li {
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        padding-top: 0.65rem;
+      }
+
+      .service p,
+      .service ul {
+        display: none;
+      }
+
+      .service li + li,
+      .detail-list li + li {
+        margin-top: 0.65rem;
+      }
+
+      .promise {
+        background: #000;
+        color: var(--ink);
+      }
+
+      .promise .section-heading p,
+      .promise-item p,
+      .process p,
+      .contact-panel p {
+        color: rgba(255, 253, 248, 0.74);
+      }
+
+      .promise-grid {
+        display: grid;
+        gap: clamp(0.8rem, 1.4vw, 1.3rem);
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        background: transparent;
+        border: 0;
+      }
+
+      .promise-item {
+        background: linear-gradient(135deg, #121212, #222);
+        border: 1px solid rgba(255, 255, 255, 0.05);
+        border-radius: var(--radius);
+        min-height: 18rem;
+        padding: clamp(1.25rem, 2.6vw, 2.25rem);
+      }
+
+      .promise-item span {
+        border: 1px solid rgba(255, 255, 255, 0.55);
+        border-radius: 999px;
+        color: var(--ink);
+        display: inline-block;
+        font-weight: 700;
+        height: 2rem;
+        line-height: 1.9rem;
+        margin-bottom: clamp(2.25rem, 4vw, 4rem);
+        text-align: center;
+        width: 2rem;
+      }
+
+      .story-grid {
+        align-items: start;
+        display: grid;
+        gap: clamp(1.5rem, 4vw, 4rem);
+        grid-template-columns: minmax(0, 1fr) minmax(18rem, 0.72fr);
+      }
+
+      .story {
+        background: #765444;
+        overflow: hidden;
+      }
+
+      .story p {
+        color: rgba(255, 255, 255, 0.84);
+      }
+
+      .story-media {
+        display: grid;
+        gap: clamp(0.9rem, 2vw, 1.25rem);
+        grid-template-columns: minmax(0, 1fr) minmax(0, 0.72fr);
+      }
+
+      .story-media img {
+        border-radius: var(--radius);
+        height: 100%;
+        min-height: clamp(18rem, 37vw, 35rem);
+        object-fit: cover;
+      }
+
+      .story-media img:last-child {
+        margin-top: clamp(2rem, 8vw, 7rem);
+      }
+
+      .why {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        margin-top: 2rem;
+      }
+
+      .why article {
+        background: rgba(0, 0, 0, 0.56);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 0.85rem;
+        padding: 1rem;
+      }
+
+      .why p {
+        margin-bottom: 0;
+      }
+
+      .process {
+        background: #000;
+        color: var(--ink);
+      }
+
+      .steps {
+        counter-reset: step;
+        display: grid;
+        gap: clamp(1rem, 2vw, 1.5rem);
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .step {
+        background: var(--panel);
+        border: 1px solid rgba(255, 255, 255, 0.07);
+        border-radius: var(--radius);
+        min-height: 14rem;
+        padding: clamp(1.2rem, 2vw, 1.6rem);
+      }
+
+      .step::before {
+        color: rgba(255, 255, 255, 0.72);
+        content: "0" counter(step);
+        counter-increment: step;
+        display: block;
+        font-size: 0.84rem;
+        font-weight: 900;
+        margin-bottom: clamp(2rem, 3vw, 3.3rem);
+      }
+
+      .portfolio {
+        background:
+          linear-gradient(90deg, rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.66)),
+          url("assets/1941-Davie-01_d360.jpg") center / cover;
+      }
+
+      .quote {
+        border-left: 2px solid var(--ink);
+        border-block: 0;
+        color: var(--ink);
+        font-size: clamp(1.15rem, 1.7vw, 1.6rem);
+        font-style: italic;
+        line-height: 1.45;
+        margin: 0 0 clamp(2rem, 4vw, 3.5rem);
+        padding: 0.25rem 0 0.25rem 1.25rem;
+      }
+
+      .projects {
+        display: grid;
+        gap: clamp(0.9rem, 1.8vw, 1.3rem);
+        grid-template-columns: repeat(12, minmax(0, 1fr));
+      }
+
+      .project {
+        background: #111;
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        color: var(--ink);
+        grid-column: span 4;
+        margin: 0;
+        min-height: clamp(18rem, 33vw, 30rem);
+        overflow: hidden;
+        position: relative;
+      }
+
+      .project:nth-child(1),
+      .project:nth-child(4) {
+        grid-column: span 7;
+      }
+
+      .project:nth-child(2),
+      .project:nth-child(5) {
+        grid-column: span 5;
+      }
+
+      .project img {
+        height: 100%;
+        object-fit: cover;
+        transition: transform 500ms ease;
+        width: 100%;
+      }
+
+      .project:hover img {
+        transform: scale(1.035);
+      }
+
+      .project-caption {
+        background: linear-gradient(180deg, transparent, rgba(8, 12, 11, 0.86));
+        inset: auto 0 0;
+        padding: clamp(3.25rem, 6vw, 6rem) clamp(1rem, 2vw, 1.6rem) 1.2rem;
+        position: absolute;
+      }
+
+      .project-caption strong {
+        display: block;
+        font-size: clamp(1.45rem, 2vw, 2.2rem);
+        font-weight: 400;
+        line-height: 1;
+      }
+
+      .project-caption span {
+        color: rgba(255, 253, 248, 0.74);
+        display: block;
+        font-size: 0.92rem;
+        margin-top: 0.55rem;
+      }
+
+      .contact {
+        background: #000;
+      }
+
+      .contact-wrap {
+        background:
+          linear-gradient(110deg, rgba(0, 0, 0, 0.98), rgba(13, 13, 13, 0.92)),
+          url("assets/Cypress-Blvd-01_ef74.jpg") center / cover;
+        border: 1px solid rgba(255, 255, 255, 0.09);
+        border-radius: var(--radius);
+        color: var(--ink);
+        display: grid;
+        gap: clamp(1.5rem, 4vw, 4rem);
+        grid-template-columns: minmax(0, 0.95fr) minmax(18rem, 0.72fr);
+        padding: clamp(1.5rem, 5vw, 5rem);
+      }
+
+      .contact-panel {
+        background: rgba(18, 18, 18, 0.84);
+        border-radius: var(--radius);
+        border: 1px solid rgba(255, 253, 248, 0.24);
+        padding: clamp(1.2rem, 2.8vw, 2.25rem);
+      }
+
+      .contact-row {
+        border-top: 1px solid rgba(255, 253, 248, 0.24);
+        display: grid;
+        gap: 0.35rem;
+        grid-template-columns: 6rem minmax(0, 1fr);
+        padding-block: 0.95rem;
+      }
+
+      .contact-row span {
+        color: var(--gold);
+        font-size: 0.82rem;
+        font-weight: 900;
+        text-transform: uppercase;
+      }
+
+      .contact-row a,
+      .contact-row address {
+        color: var(--ink);
+        font-style: normal;
+        font-weight: 700;
+        overflow-wrap: anywhere;
+        text-decoration: none;
+      }
+
+      .area-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.55rem;
+        margin-top: 1.5rem;
+      }
+
+      .area-list li {
+        border: 1px solid rgba(255, 253, 248, 0.28);
+        color: rgba(255, 253, 248, 0.83);
+        padding: 0.45rem 0.7rem;
+      }
+
+      footer {
+        align-items: center;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        display: flex;
+        gap: 1rem;
+        justify-content: space-between;
+        padding-block: 1.5rem 2.25rem;
+      }
+
+      footer p {
+        margin: 0;
+      }
+
+      footer a {
+        color: var(--ink);
+        font-weight: 800;
+        text-decoration: none;
+      }
+
+      @media (max-width: 920px) {
+        .nav {
+          display: flex;
+          flex-direction: column;
+          gap: 0.85rem;
+          justify-content: center;
+          padding-block: 1rem;
+        }
+
+        .nav-links {
+          flex-wrap: wrap;
+          gap: 0.7rem 1rem;
+          justify-content: center;
+          width: 100%;
+        }
+
+        .nav-links a:nth-child(2),
+        .nav-links a:nth-child(3) {
+          margin: 0;
+        }
+
+        .section-heading,
+        .hero-layout,
+        .intro-grid,
+        .story-grid,
+        .contact-wrap {
+          grid-template-columns: 1fr;
+        }
+
+        .hero {
+          background-position: 60% center;
+        }
+
+        .hero-layout {
+          min-height: min(94svh, 900px);
+        }
+
+        .hero-proof {
+          max-width: 28rem;
+        }
+
+        .service-grid,
+        .promise-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .service:nth-child(3) {
+          border-left: 0;
+        }
+
+        .steps {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+
+      @media (max-width: 680px) {
+        .nav {
+          align-items: flex-start;
+          display: flex;
+          flex-direction: column;
+          gap: 0.85rem;
+          justify-content: center;
+          padding-block: 1rem;
+        }
+
+        .mark {
+          align-self: center;
+        }
+
+        .nav-links {
+          flex-wrap: wrap;
+          gap: 0.7rem 1rem;
+          justify-content: center;
+          width: 100%;
+        }
+
+        .nav-links a:nth-child(2),
+        .nav-links a:nth-child(3) {
+          margin: 0;
+        }
+
+        .nav-links a:last-child {
+          display: none;
+        }
+
+        .hero-layout {
+          padding-top: 9.7rem;
+        }
+
+        .hero-actions,
+        .hero-actions .button {
+          width: 100%;
+        }
+
+        .service-grid,
+        .promise-grid,
+        .why,
+        .steps {
+          grid-template-columns: 1fr;
+        }
+
+        .service + .service {
+          border-left: 0;
+        }
+
+        .service {
+          min-height: 18rem;
+        }
+
+        .story-media {
+          grid-template-columns: 1fr;
+        }
+
+        .story-media img:last-child {
+          margin-top: 0;
+        }
+
+        .project,
+        .project:nth-child(1),
+        .project:nth-child(2),
+        .project:nth-child(4),
+        .project:nth-child(5) {
+          grid-column: 1 / -1;
+          min-height: 19rem;
+        }
+
+        .contact-row,
+        footer {
+          grid-template-columns: 1fr;
+        }
+
+        footer {
+          align-items: flex-start;
+          flex-direction: column;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        html {
+          scroll-behavior: auto;
+        }
+
+        *,
+        *::before,
+        *::after {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          transition-duration: 0.01ms !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="shell nav">
+        <a class="mark" href="#top" aria-label="Woodlot home">Woodlot</a>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#services">Services</a>
+          <a href="#process">Process</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+          <a href="tel:+13056866054">305-686-6054</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="shell hero-layout">
+          <div class="hero-copy">
+            <p class="eyebrow">Established in 2021 / South Florida</p>
+            <h1 id="hero-title">Woodlot</h1>
+            <p>
+              Luxury custom cabinetry and millwork made in Miami for kitchens,
+              closets, vanities, wall units, and spaces that deserve a precise fit.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#contact">Start your project</a>
+              <a
+                class="button button-outline"
+                href="assets/Woodlot-Broshure-Aug-1_317d.pdf"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View summer brochure
+              </a>
+            </div>
+          </div>
+          <aside class="hero-proof" aria-label="Woodlot specialty">
+            <strong>Woodwork. Luxury. Bespoke.</strong>
+            <p>
+              Family-owned carpentry with in-house manufacturing, premium materials,
+              and a detail-driven installation finish.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="intro section">
+        <div class="shell intro-grid">
+          <blockquote class="intro-statement">
+            Cabinetry work customized to your tastes and built to make daily rooms
+            feel calmer, richer, and more useful.
+          </blockquote>
+          <div>
+            <p class="eyebrow">Welcome to Woodlot</p>
+            <h2>Custom millwork that starts with how you live.</h2>
+            <p>
+              Woodlot is a Miami-based team of skilled artisans serving homes and
+              businesses across South Florida. Every project balances functional
+              storage, refined proportions, and the finish choices that make a room
+              feel personal.
+            </p>
+            <p>
+              From compact kitchens to one-of-a-kind furniture pieces, the work is
+              shaped around your vision, your dimensions, and the materials that will
+              hold up beautifully over time.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="services section" id="services" aria-labelledby="services-title">
+        <div class="shell">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Our services</p>
+              <h2 id="services-title">Made for the rooms that work hardest.</h2>
+            </div>
+            <p>
+              Design, manufacturing, and installation for custom cabinetry that
+              turns storage into architecture.
+            </p>
+          </div>
+          <div class="service-grid">
+            <article class="service">
+              <span class="service-number">01</span>
+              <h3>Kitchen cabinets</h3>
+              <p>
+                Custom kitchen systems that reduce clutter and elevate the center of
+                the home.
+              </p>
+              <ul>
+                <li>Handcrafted details</li>
+                <li>Styles, finishes, and hardware options</li>
+                <li>Storage planned for your workflow</li>
+              </ul>
+            </article>
+            <article class="service">
+              <span class="service-number">02</span>
+              <h3>Custom closets</h3>
+              <p>
+                Organized storage tailored to wardrobes, routines, and the space you
+                actually have.
+              </p>
+              <ul>
+                <li>Walk-in and family closets</li>
+                <li>Shelving and hanging systems</li>
+                <li>Premium finishes</li>
+              </ul>
+            </article>
+            <article class="service">
+              <span class="service-number">03</span>
+              <h3>Custom vanities</h3>
+              <p>
+                Bathroom focal points with durable construction and spa-like polish.
+              </p>
+              <ul>
+                <li>Dimensions made to fit</li>
+                <li>Storage for daily essentials</li>
+                <li>Elegant hardware and fixtures</li>
+              </ul>
+            </article>
+            <article class="service">
+              <span class="service-number">04</span>
+              <h3>Wall units</h3>
+              <p>
+                Built-ins for libraries, collections, media, and rooms that need
+                structure.
+              </p>
+              <ul>
+                <li>Floor-to-ceiling options</li>
+                <li>Display and concealed storage</li>
+                <li>Proportions tuned to the room</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="promise section" aria-labelledby="promise-title">
+        <div class="shell">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Woodlot's promise</p>
+              <h2 id="promise-title">A project experience built around trust.</h2>
+            </div>
+            <p>
+              Quality comes from the choices no one should have to chase: clear
+              service, a wide design range, strong materials, and satisfaction at the
+              finish line.
+            </p>
+          </div>
+          <div class="promise-grid">
+            <article class="promise-item">
+              <span>01</span>
+              <h3>Personalized service</h3>
+              <p>Your needs, preferences, and voice guide the entire project.</p>
+            </article>
+            <article class="promise-item">
+              <span>02</span>
+              <h3>Wide selection</h3>
+              <p>Traditional, contemporary, classic, and statement-making options.</p>
+            </article>
+            <article class="promise-item">
+              <span>03</span>
+              <h3>High quality materials</h3>
+              <p>Wood, finishes, and hardware chosen for beauty and durability.</p>
+            </article>
+            <article class="promise-item">
+              <span>04</span>
+              <h3>Customer satisfaction</h3>
+              <p>Careful delivery and installation backed by pride in the work.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="story section" aria-labelledby="why-title">
+        <div class="shell story-grid">
+          <div>
+            <p class="eyebrow">Why choose Woodlot</p>
+            <h2 id="why-title">Craftsmanship stays close to the shop.</h2>
+            <p>
+              In-house manufacturing gives Woodlot direct control over quality,
+              timeline, and details. The team pairs local South Florida experience
+              with a hands-on approach that keeps every joint, finish, and proportion
+              connected to the final room.
+            </p>
+            <div class="why">
+              <article>
+                <h3>Expert craft</h3>
+                <p>Built by artisans with a sharp eye for lasting woodworking.</p>
+              </article>
+              <article>
+                <h3>Local expertise</h3>
+                <p>Designs informed by Miami living and South Florida homes.</p>
+              </article>
+              <article>
+                <h3>Attention to detail</h3>
+                <p>Functional pieces that look deliberate from edge to finish.</p>
+              </article>
+              <article>
+                <h3>Premium materials</h3>
+                <p>Wood selected for grain, strength, durability, and character.</p>
+              </article>
+            </div>
+          </div>
+          <div class="story-media" aria-label="Woodlot project details">
+            <img
+              src="assets/1941-Davie-01_d360.jpg"
+              alt="Illuminated dining room millwork and display cabinetry in Davie"
+            />
+            <img
+              src="assets/152-Miami-Lakes-01_f07b.jpg"
+              alt="Bright white custom kitchen cabinetry in Miami Lakes"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="process section" id="process" aria-labelledby="process-title">
+        <div class="shell">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Our process</p>
+              <h2 id="process-title">From first consultation to final fit.</h2>
+            </div>
+            <p>
+              The route is simple enough to follow and detailed enough to protect
+              the result.
+            </p>
+          </div>
+          <div class="steps">
+            <article class="step">
+              <h3>Consultation</h3>
+              <p>Share your vision, needs, measurements, and style preferences.</p>
+            </article>
+            <article class="step">
+              <h3>Design</h3>
+              <p>Shape a custom solution that balances function and aesthetics.</p>
+            </article>
+            <article class="step">
+              <h3>Material selection</h3>
+              <p>Choose wood species, finishes, hardware, and the right details.</p>
+            </article>
+            <article class="step">
+              <h3>Craftsmanship</h3>
+              <p>Manufacture each piece with precise care in the Woodlot shop.</p>
+            </article>
+            <article class="step">
+              <h3>Installation</h3>
+              <p>Deliver and fit your cabinetry professionally in its home.</p>
+            </article>
+            <article class="step">
+              <h3>Satisfaction</h3>
+              <p>Finish with a result made to feel right and work beautifully.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio section" id="portfolio" aria-labelledby="portfolio-title">
+        <div class="shell">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Featured projects</p>
+              <h2 id="portfolio-title">Spaces transformed in wood and finish.</h2>
+            </div>
+            <p>
+              Recent work spans polished kitchens, display millwork, and modern
+              cabinetry designed for durable everyday use.
+            </p>
+          </div>
+          <blockquote class="quote">Let us transform your space today.</blockquote>
+          <div class="projects">
+            <figure class="project">
+              <img
+                src="assets/Gables-28-01_66d0.jpg"
+                alt="Warm custom kitchen with white cabinetry and a terracotta backsplash"
+              />
+              <figcaption class="project-caption">
+                <strong>Gables</strong>
+                <span>Luxury cabinetry and wall units</span>
+              </figcaption>
+            </figure>
+            <figure class="project">
+              <img
+                src="assets/Cypress-Blvd-01_ef74.jpg"
+                alt="Dark custom kitchen cabinetry with illuminated wood display shelving"
+              />
+              <figcaption class="project-caption">
+                <strong>Cypress Boulevard</strong>
+                <span>Premium custom woodwork</span>
+              </figcaption>
+            </figure>
+            <figure class="project">
+              <img
+                src="assets/Biscayne-10-02_ecea.jpg"
+                alt="Blue and white modern kitchen cabinetry in Biscayne"
+              />
+              <figcaption class="project-caption">
+                <strong>Biscayne</strong>
+                <span>Modern cabinetry solutions</span>
+              </figcaption>
+            </figure>
+            <figure class="project">
+              <img
+                src="assets/1941-Davie-01_d360.jpg"
+                alt="Dining room with illuminated custom display cabinets"
+              />
+              <figcaption class="project-caption">
+                <strong>1941 Davie</strong>
+                <span>Elegant design and execution</span>
+              </figcaption>
+            </figure>
+            <figure class="project">
+              <img
+                src="assets/152-Miami-Lakes-01_f07b.jpg"
+                alt="Minimal white kitchen with full-height custom cabinets"
+              />
+              <figcaption class="project-caption">
+                <strong>152 Miami Lakes</strong>
+                <span>Cabinetry and storage solutions</span>
+              </figcaption>
+            </figure>
+            <figure class="project">
+              <img
+                src="assets/Coastal-22-07_d002.jpg"
+                alt="Contemporary coastal kitchen cabinet detail with pale wood lower cabinets"
+              />
+              <figcaption class="project-caption">
+                <strong>Coastal</strong>
+                <span>Contemporary kitchen design</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact" aria-labelledby="contact-title">
+        <div class="shell">
+          <div class="contact-wrap">
+            <div>
+              <p class="eyebrow">Contact Woodlot</p>
+              <h2 id="contact-title">Ready to bring your vision to life?</h2>
+              <p>
+                Call for a consultation on cabinetry, closets, vanities, wall units,
+                furniture pieces, or custom millwork for your South Florida space.
+              </p>
+              <div class="hero-actions">
+                <a class="button button-primary" href="tel:+13056866054">Call today</a>
+                <a class="button button-outline" href="mailto:info@emrestoration.net">
+                  Email Woodlot
+                </a>
+              </div>
+              <ul class="area-list" aria-label="Service areas">
+                <li>Miami-Dade County</li>
+                <li>Miami</li>
+                <li>Kendall</li>
+                <li>Hialeah</li>
+                <li>Miramar</li>
+                <li>Hollywood</li>
+                <li>Fort Lauderdale</li>
+                <li>Davie</li>
+                <li>Coral Springs</li>
+                <li>Cooper City</li>
+              </ul>
+            </div>
+            <aside class="contact-panel">
+              <div class="contact-row">
+                <span>Phone</span>
+                <a href="tel:+13056866054">305-686-6054</a>
+              </div>
+              <div class="contact-row">
+                <span>Email</span>
+                <a href="mailto:info@emrestoration.net">info@emrestoration.net</a>
+              </div>
+              <div class="contact-row">
+                <span>Visit</span>
+                <address>17401 NW 2nd Ave #104, Miami Gardens, FL 33169</address>
+              </div>
+              <div class="contact-row">
+                <span>Social</span>
+                <a href="https://www.instagram.com/woodlotcabinets/" target="_blank" rel="noreferrer">
+                  @woodlotcabinets
+                </a>
+              </div>
+              <div class="contact-row">
+                <span>Maps</span>
+                <a
+                  href="https://maps.app.goo.gl/rqf6bhUC32Er5w6K7"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View Woodlot on Google
+                </a>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="shell">
+      <p><strong>Woodlot</strong> / Carpentry reinvented in South Florida.</p>
+      <a href="assets/Woodlot-Broshure-Aug-1_317d.pdf" target="_blank" rel="noreferrer">
+        Summer brochure
+      </a>
+    </footer>
+  </body>
+</html>
