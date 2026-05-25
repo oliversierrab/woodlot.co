@@ -108,7 +108,7 @@ Call for a consultation on cabinetry, closets, vanities, wall units, furniture
 pieces, or custom millwork for your South Florida space.
 
 - Phone: [305-686-6054](tel:+13056866054)
-- Email: [info@emrestoration.net](mailto:info@emrestoration.net)
+- Email: [em@woodlot.co](mailto:em@woodlot.co)
 - Address: 17401 NW 2nd Ave #104, Miami Gardens, FL 33169
 - Instagram: [@woodlotcabinets](https://www.instagram.com/woodlotcabinets/)
 - Maps: [View Woodlot on Google](https://maps.app.goo.gl/rqf6bhUC32Er5w6K7)

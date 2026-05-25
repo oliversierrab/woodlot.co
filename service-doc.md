@@ -3,7 +3,7 @@
 Woodlot is a family-owned Miami carpentry company providing custom cabinetry
 manufacturing and millwork solutions for South Florida homes and businesses.
 
-Canonical website: https://www.woodlot.co/
+Canonical website: [https://www.woodlot.co/](https://www.woodlot.co/)
 
 ## Services
 
@@ -22,12 +22,12 @@ City.
 ## Contact
 
 - Phone: 305-686-6054
-- Email: info@emrestoration.net
+- Email: em@woodlot.co
 - Address: 17401 NW 2nd Ave #104, Miami Gardens, FL 33169
-- Instagram: https://www.instagram.com/woodlotcabinets/
+- Instagram: [Woodlot Instagram](https://www.instagram.com/woodlotcabinets/)
 
 ## Discovery Resources
 
-- Sitemap: https://www.woodlot.co/sitemap.xml
-- Robots policy: https://www.woodlot.co/robots.txt
-- Summer brochure: https://www.woodlot.co/assets/Woodlot-Broshure-Aug-1_317d.pdf
+- Sitemap: [Woodlot sitemap](https://www.woodlot.co/sitemap.xml)
+- Robots policy: [Woodlot robots policy](https://www.woodlot.co/robots.txt)
+- Summer brochure: [Woodlot summer brochure](https://www.woodlot.co/assets/Woodlot-Broshure-Aug-1_317d.pdf)
